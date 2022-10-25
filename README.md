@@ -1,24 +1,80 @@
-# README
+# Budget-App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple web application where we combine Rails with React using Webpack with jsbundling-rails gem.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- ![](https://img.shields.io/badge/Github-blueviolet)
 
-* System dependencies
+- ![](https://img.shields.io/badge/Ruby-red)
 
-* Configuration
+- ![](https://img.shields.io/badge/Ruby*on*Rails-red)
 
-* Database creation
+- ![](https://img.shields.io/badge/PostgreSql-blue)
 
-* Database initialization
+- ![](https://img.shields.io/badge/Webpack-blue)
 
-* How to run the test suite
+### Install & Setup
 
-* Services (job queues, cache servers, search engines, etc.)
+To setup and install this sample AlFa Blog project, follow the below steps:
 
-* Deployment instructions
+- Clone this project by the command:
 
-* ...
+  ```
+
+  git clone https://github.com/jahongiry/Hello-rails-react_app.git
+
+  ```
+
+- Then switch to the project folder by the bellow query:
+
+  ```
+
+  cd Rails-Ract-Hello-World_app
+
+  ```
+
+- Install the required dependecies with:
+
+  ```
+  bundle install
+  ```
+
+- Install yarn dependencies with:
+
+  ```
+
+  yarn install
+
+  ```
+
+- Before running below commands update [config/database.yml](./config/database.yml) with your local `DB`credentials. Then run:
+  `rake db:create `
+
+  `rake db:migrate `
+
+- With Ruby on Rails and PostgreSQL installed in your environment, you can run `rails server` to run the website.
+
+### Tests
+
+- Run `bundle install`
+
+- Run `bundle exec rspec spec`
+
+### Prerequisites
+
+- IDE to edit and run the code (We use Visual Studio Code 🔥).
+
+- Git to versionning your work.
+
+- Postgresql
+
+## Author
+
+👤 **Jahongir Yusupov**
+
+- GitHub: [@github](https://github.com/jahongiry)
+- Twitter: [@twitter](https://twitter.com/SafarAli999)
+- LinkedIn: [LinkedIn](https://twitter.com/Zelalem52236790)
+
+## 🤝 Contributing
